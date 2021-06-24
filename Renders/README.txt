@@ -1,0 +1,1 @@
+Anansi Hexapod Renders © 2020 by Bryce Cronin (http://cronin.cloud) is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License. License info: https://creativecommons.org/licenses/by-nc-nd/4.0/

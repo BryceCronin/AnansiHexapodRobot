@@ -1,0 +1,1 @@
+Anansi Hexapod Models by Bryce Cronin (http://cronin.cloud) is licensed under a Creative Commons Attribution 4.0 International License. License info: https://creativecommons.org/licenses/by/4.0/
