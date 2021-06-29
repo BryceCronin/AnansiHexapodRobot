@@ -10,20 +10,20 @@ The Anansi Hexapod Robot is a 3D-printable hexapod frame based on 24 Dynamixel M
 ## Components
 ### Components to 3D-Print
 Unless where otherwise noted, it is recommended to 3D-print these components with normal print settings. 
-| Component | Required | Quantity | Notes |
-| --------- | -------- | -------- | ----- |
-| Body_Connector  | ✔️ Required | 6 | - |
-| Body_CoreSpacers | ❌ Optional  | 6 | Optional, but recommended to prevent overtightening of the *M6 60mm Bolts*. |
-| Body_BoardMount | ❌ Optional  | 4 | This component can be added to the *Body_Connector* component to provide mounting points for electronics, however it is recommended to design a custom component to suit your exact needs. |
-| Core_PartA  | ✔️ Required | 1 | May require high-precision 3D-print settings to allow for the *M6 Hex Nuts* to be inserted into this component. |
-| Core_PartB  | ✔️ Required | 1 | May require high-precision 3D-print settings to allow for this component to be inserted into Core_PartA.|
-| Leg_ConnectorA  | ✔️ Required | 24 | Print this piece so that it looks like a *'U'* shape when looking from above, this will make it flexible so that motors can be inserted and removed. Alternatively, you can edit the model to extend the oval shape to the very edge so that motors can be inserted and removed without a great amount of flexibility in the printed model.  |
-| Leg_ConnectorB  | ✔️ Required | 18 | 18 are required, but 24 are recommended if aesththetics are important to you. If you use 24, attach the extra components between the *Leg_ConnectorB* component and the *spacers* in each foot.|
-| Leg_BearingMount  | ✔️ Required | 24 | - |
-| Leg_BearingSpacer  | ✔️ Required | 24 | Print with high precision - it should fit snuggly into the recess on the Dynamixel motor. If it doesn't fit snuggly, consider designing a custom version of this component with your 3D-printers settings in mind.|
-| Leg_HornCap  | ❌ Optional | 24 | This component is purely for aesthetic reasons. It's optional, but will make your hexapod look nice and symetrical. |
-| Foot_PartA  | ✔️ Required | 6 | - |
-| Foot_PartB  | ✔️ Required | 6 | - |
+| Image | Component | Required | Quantity | Notes |
+| --------- | --------- | -------- | -------- | ----- |
+| ![](Renders/Individual%20Components/Body_Connector.png) | Body_Connector  | ✔️ Required | 6 | - |
+| ![](Renders/Individual%20Components/Body_CoreSpacers.png) | Body_CoreSpacers | ❌ Optional  | 6 | Optional, but recommended to prevent overtightening of the *M6 60mm Bolts*. |
+| ![](Renders/Individual%20Components/Body_BoardMount.png) | Body_BoardMount | ❌ Optional  | 4 | This component can be added to the *Body_Connector* component to provide mounting points for electronics, however it is recommended to design a custom component to suit your exact needs. |
+| ![](Renders/Individual%20Components/Core_PartA.png) | Core_PartA  | ✔️ Required | 1 | May require high-precision 3D-print settings to allow for the *M6 Hex Nuts* to be inserted into this component. |
+| ![](Renders/Individual%20Components/Core_PartB.png) |   | ✔️ Required | 1 | May require high-precision 3D-print settings to allow for this component to be inserted into Core_PartA.|
+| ![](Renders/Individual%20Components/Leg_ConnectorA.png) | Leg_ConnectorA  | ✔️ Required | 24 | Print this piece so that it looks like a *'U'* shape when looking from above, this will make it flexible so that motors can be inserted and removed. Alternatively, you can edit the model to extend the oval shape to the very edge so that motors can be inserted and removed without a great amount of flexibility in the printed model.  |
+| ![](Renders/Individual%20Components/Leg_ConnectorB.png) | Leg_ConnectorB  | ✔️ Required | 18 | 18 are required, but 24 are recommended if aesththetics are important to you. If you use 24, attach the extra components between the *Leg_ConnectorB* component and the *spacers* in each foot.|
+| ![](Renders/Individual%20Components/Leg_BearingMount.png) | Leg_BearingMount  | ✔️ Required | 24 | - |
+| ![](Renders/Individual%20Components/Leg_BearingSpacer.png) | Leg_BearingSpacer  | ✔️ Required | 24 | Print with high precision - it should fit snuggly into the recess on the Dynamixel motor. If it doesn't fit snuggly, consider designing a custom version of this component with your 3D-printers settings in mind.|
+| ![](Renders/Individual%20Components/Leg_Horncap.png) | Leg_HornCap  | ❌ Optional | 24 | This component is purely for aesthetic reasons. It's optional, but will make your hexapod look nice and symetrical. |
+| ![](Renders/Individual%20Components/Foot_PartA.png) | Foot_PartA  | ✔️ Required | 6 | - |
+| ![](Renders/Individual%20Components/Foot_PartB.png) | Foot_PartB  | ✔️ Required | 6 | - |
 
 ### Other Components
 You'll need to purchase or fabricate the below components yourself. I've included links to the exact products I used for illustrative purposes only, I recommend finding similar products that are available for purchase in your region. Consider 3D-printing the *Core_PartA* and *Body_Connector* components in order to test the sizing of screws and bolts before purchasing.
